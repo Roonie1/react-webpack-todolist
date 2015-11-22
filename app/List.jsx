@@ -28,7 +28,7 @@ export default class List extends React.Component{
             Items.push(<ListItem style={item} contents={this.state.data[i].content} onItemFinish={this._handleFinish.bind(this)}></ListItem>);
         }
         return(
-            <table width="100%" border="1">
+            <table width="250px" border="1">
                 <thead>
                     <tr>
                         <td>操作</td>
