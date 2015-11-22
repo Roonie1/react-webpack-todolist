@@ -3,7 +3,8 @@ Webpack + React + Babel for ES6
 
 Clone :
 
-$ git clone --depth 1 git@github.com:glebm/gulp-webpack-react-bootstrap-sass-template.git
+$ git clone https://github.com/Roonie1/react-webpack-todolist.git
+
 Install:
 
 $ npm install
