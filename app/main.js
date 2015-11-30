@@ -3,7 +3,16 @@
  */
 import React from "react";
 import ReactDOM from "react-dom";
-import ReactBootstrap from "react-bootstrap";
-import Container from "./Container.jsx";
+import {createStore} from "redux";
+import {Provider} from "react-redux";
+import App from "./containers/App.js";
+import todoApp from "./reducers/reducers";
 
-ReactDOM.render(<Container/>,document.getElementById('content'));
+let store = createStore(todoApp);
+
+ReactDOM.render(
+    <Provider store={store}>
+        <App/>
+    </Provider>,
+    document.getElementById('content')
+);
