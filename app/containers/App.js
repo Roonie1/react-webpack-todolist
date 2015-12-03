@@ -14,14 +14,10 @@ class App extends React.Component {
         return (
             <div>
                 <AddButton
-                    onAddClick={text =>
-            dispatch(addTodo(text))
-          } />
+                    onAddClick={text =>dispatch(addTodo(text))} />
                 <List
                     todos={this.props.visibleTodos}
-                    onTodoClick={index =>
-            dispatch(completeTodo(index))
-          } />
+                    onTodoClick={index =>dispatch(completeTodo(index))} />
             </div>
         );
     }

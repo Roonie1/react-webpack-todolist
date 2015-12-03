@@ -12,8 +12,8 @@ function todoApp(state = [], action) {
                 completed: false
             }];
         case COMPLETE_TODO:
-            console.log(action.index);
-            console.log(state);
+            //console.log(action.index);
+            //console.log(state);
             var object = {
                 text:state[action.index].text,
                 completed:true
