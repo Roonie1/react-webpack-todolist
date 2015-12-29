@@ -1,15 +1,15 @@
-Webpack + React + Babel for ES6
+##Webpack + React + Babel for ES6
 非常简单的一个demo
 
-Clone :
+##Clone :
 
 $ git clone https://github.com/Roonie1/react-webpack-todolist.git
 
-Install:
+##Install:
 
 $ npm install
 
-run:
+##run:
 
 $ npm run dev 
 
