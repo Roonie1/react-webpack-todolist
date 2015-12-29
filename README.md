@@ -1,5 +1,5 @@
-##Webpack + React + Babel for ES6
-非常简单的一个demo
+##Webpack + React + redux for ES6
+一个简单的todolist的demo，供初学者学习，欢迎star
 
 ##Clone :
 
