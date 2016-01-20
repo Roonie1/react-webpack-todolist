@@ -25,8 +25,10 @@ export default class AddButton extends React.Component{
     handleClick(e) {
         const node = ReactDOM.findDOMNode(this.refs.input);
         const text = node.value.trim();
-        this.props.onAddClick(text);
-        node.value = '';
+        if (text !== ""){
+            this.props.onAddClick(text);
+            node.value = '';
+        }
     }
 }
 

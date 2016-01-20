@@ -2,6 +2,9 @@ import React, { PropTypes } from 'react';
 import {Button} from "react-bootstrap";
 
 export default class ListItem extends React.Component{
+    componentDidMount(){
+        console.log("item component did mount");
+    };
     render(){
         return (
             <tr>
