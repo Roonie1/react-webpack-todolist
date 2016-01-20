@@ -3,6 +3,7 @@ import React, { PropTypes } from 'react';
 import ListItem from "./ListItem.jsx";
 
 export default class List extends React.Component{
+    
     render(){
         var item={
             padding:"6px"
