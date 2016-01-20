@@ -11,7 +11,7 @@ $ npm install
 
 ##run:
 
-$ npm run dev 
+$ npm start
 
 
 浏览器打开 http://localhost:8080/.
